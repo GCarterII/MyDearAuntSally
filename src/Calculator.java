@@ -1,7 +1,11 @@
 import java.util.ArrayList;
 
 
-public class Calculator {
+public class Calculator implements java.io.Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2040826795301913821L;
 	private ArrayList<Object> queue = new ArrayList<>();
 	
 	public Calculator() {
